@@ -1,0 +1,88 @@
+* {
+    box-sizing: inherit;
+    font-family: Bahnschrift, sans-serif;
+}
+
+body {
+    margin: 48px;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+}
+a {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px black solid;
+}
+
+a:hover {
+    background: black;
+    color: aliceblue;
+}
+
+main{
+    margin-top: 32px;
+}
+
+.gallery_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery_container img {
+    width: 400px;
+    margin: 12px;
+}
+
+.feedback_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 12px;
+}
+
+.feedback_form textarea {
+    width: 300px;
+    resize: vertical;
+    min-height: 150px;
+    font-size: 16px;
+}
+
+.feedback_input label {
+    display: flex;
+    width: 300px;
+    margin: 12px 0 12px 0;
+}
+
+.feedback_input input {
+    display: flex;
+    width: 300px;
+    font-size: 16px;
+}
+
+.about_textplace p {
+    padding-left: 12px;
+}
+
+.achievements_table {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 100%
+
+}
+
+table, th, td{
+    border: 1px black solid;
+}
